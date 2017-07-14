@@ -46,7 +46,7 @@ $(document).ready(function(){
   $("button").on("click", function(){
     //if user input = erase clears all user inputs
     if(this.id==="erase"){
-      inputs = [""];
+      inputs = ["0"];
       update();
     }
     //if user input = back pops the last user input out of inputs array
